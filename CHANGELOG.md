@@ -1,4 +1,9 @@
-1.3.0 / 2014-11-24
+1.3.2 / 2014-11-24
+==================
+
+ * Add option preserveImportant [jrit]
+
+1.3.1 / 2014-11-24
 ==================
 
  * Add option applyLinksToStyleTags [jrit]
