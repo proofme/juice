@@ -78,13 +78,14 @@ Output:
    - `applyLinkTags` [Deprecated, use applyLinksToStyleTags] - whether to resolve `<link rel="stylesheet">` tags
      and inline the resulting styles into document `head`. Defaults to `true`.
    - `applyLinksToStyleTags` - whether to resolve `<link rel="stylesheet">` tags
-     and replace them with `style` tags. This works with `preserveMediaQueries` 
+     and replace them with `style` tags. This works with `preserveMediaQueries`
      unlike the deprecated `applyLinkTags`. Defaults to `true`.
    - `removeStyleTags` - whether to remove the original `<style></style>`
      tags after (possibly) inlining the css from them. Defaults to `true`.
-   - `preserveMediaQueries` - preserves all media queries (and contained styles) 
-     within `<style></style>` tags as a refinement when `removeStyleTags` is `true`. 
+   - `preserveMediaQueries` - preserves all media queries (and contained styles)
+     within `<style></style>` tags as a refinement when `removeStyleTags` is `true`.
      Other styles are removed. Defaults to `false`.
+   - `preserveImportant` - preserves `!important` in values. Defaults to `false`.
    - `applyWidthAttributes` - whether to use any CSS pixel widths to create
      `width` attributes on elements set in `juice.widthElements`
    - `removeLinkTags` - whether to remove the original `<link rel="stylesheet">`
