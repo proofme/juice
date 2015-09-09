@@ -10,12 +10,12 @@
     "node": ">=0.10.20"
   },
   "dependencies": {
-    "slick": "~1.12.1",
     "commander": "~2.3.0",
     "cssom": "~0.3.0",
-    "superagent": "~0.18.2",
-    "jsdom": "~3.0.2",
-    "pend": "~1.1.2"
+    "jsdom": "^6.3.0",
+    "pend": "~1.1.2",
+    "slick": "~1.12.1",
+    "superagent": "~0.18.2"
   },
   "devDependencies": {
     "should": "~4.0.4",
